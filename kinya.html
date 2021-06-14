@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Book Yours</title>
+</head>
+
+<body>
+    <center>
+        <h1>BOOK YOURS</h1>
+    </center>
+    <form id="info" style="font-size: larger;">
+        <label for="name" class="identity">
+           Izina : <input type="text" placeholder="write your name" id="name" name="firstN" required>
+        </label> <br> <br>
+        <label for="Sname" class="identity">
+           Irindi Zina: <input type="text" placeholder="write your second Name" id="Sname" name="secondN" required>
+        </label> <br> <br>
+        <label for="tel" class="identity">
+           Tel: <input type="number" placeholder="write tel number" id="tel" name="tel" min="0" required>
+        </label> <br> <br>
+       <i>  <h1 class="header2">Hitamo Agency</h1></i>
+        <ul class="style" aria-required="true">
+            <label for="matunda">
+                <input type="radio" id="matunda" name="check" value="matunda">Matunda Express
+            </label> <br> <br>
+            <label for="stella">
+                <input type="radio" id="stella" name="check" value="stella">Stella Express
+            </label> <br> <br>
+            <label for="Volcano">
+                <input type="radio" id="Volcano" name="check" value="volcano">Volcano Express
+            </label> <br> <br>
+            <label for="RFTC">
+                <input type="radio" id="RFTC" name="check" value="RFTC">RFTC Express
+            </label> <br> <br>
+            <label for="Rugali">
+                <input type="radio" id="Rugali" name="check" value="Rugali">Rugali Express
+            </label> <br> <br> <br>
+        </ul>
+               <div class="style" aria-required="true">
+            <i> <h1 id="header3"> Hitamo Gare</h1></i>
+            <label for="Nyabugogo">
+                <input type="radio" id="Nyabugogo" name="book" value="Nyabugogo Park">Nyabugogo Car Park
+            </label> <br> <br>
+
+        <label for="kabuga">
+                <input type="radio" id="kabuga" name="book" value="kabuga Park">kabuga Car Park
+            </label> <br> <br>
+            <label for="Remera">
+                <input type="radio" id="Remera" name="book" value="Remera Park">Remera Car Park
+            </label> <br> <br>
+               </div>
+       <a href="pay"><button id="button">Emeza</button></a> 
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>
